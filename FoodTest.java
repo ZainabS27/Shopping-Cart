@@ -145,8 +145,3 @@ public class FoodTest{
         System.out.printf("Average cost per item: $%.2f", avgPrice);
     }
 }
-/* COMPREHENSION 4
-The version of toString() being invoked depends on the class of the Food, if it is a Fruit
-it utilizes the version of toString() that was overridden in the Fruit class and the same 
-goes for classes of Food that are Vegetables
-*/
